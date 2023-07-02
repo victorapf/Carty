@@ -5,18 +5,20 @@
 }
 
 body{
-   font-family: serif;
+   font-family: 'Poppins', sans-serif;
+   
 }
 
 /*header*/
 
 header{
    width: 100%;
-   height: 600px;
+   height: 100vh;
    background: #2980B9;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.356), hsla(196, 93%, 70%, 0.644), #2980B9), url(../img/fotogrande.jpg);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.356), hsla(196, 93%, 70%, 0.644), #2980B9), url(../img/fotogrande.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    background-size: cover ;
+   
    background-attachment: fixed;
    position: relative;
 }
@@ -28,7 +30,8 @@ nav{
 
 nav > a{
    color: #fff;
-   font-weight: 300;
+   font-weight: 300px;
+   font-size: 20px;
    text-decoration: none;
    margin-right: 10px;
 
@@ -40,19 +43,40 @@ nav > a:hover {
 
 header .textos-header{
 
-   display:inline-flex;
-   height: 1000px;
-   width: 600px;
-   align-items:center;
-   padding-left: 20px;
+   position: fixed;
+   top: 290px;
+   left: 70px;
    
-   flex-direction:column;
-   text-align: center;
+  
 }
 
-.textos-header h1{
-   font-size: 30px;
+.textos-header p1{
+   font-size: 40px;
    color: #fff;
 }
 
+.textos-header p2{
+   font-size: 43px;
+   color: #fff;
+
+}
+.textos-header p3{
+   font-size: 33px;
+   color: #fff;
+}
+
+
+.bottomheader {
+   display:block;
+   width: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   background-color: red;
+   border-radius: 20px;
+   padding: 15px 30px;
+   margin: 30px;
+   color: white;
+   text-decoration: none;
+   
+}
 
