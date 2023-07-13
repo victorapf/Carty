@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0e1dd;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    padding: 0px 10px;
+    z-index: 1;
+}
+
+header.abajo {
+    background:#e0e1dd;
+}
+
+header .logo {
+    position: relative;
+    color: #8d8b8b;
+    font-size: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d8d0d0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.portada{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.356), hsla(196, 93%, 70%, 0.644), #2980B9), url(../img/fotogrande.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.356), hsla(196, 93%, 70%, 0.644), #2980B9), url(../img/fotogrande.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover ;
+    
+}
+
+header.abajo .logo, 
+header.abajo li a{
+    color: black;
+}
+
+.contenido-portada h1{
+    position: absolute;
+    top :250px;
+    left: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido-portada h2{
+    position: absolute;
+    top :400px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botones .usuario{
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+    top: 450px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding: 15px;
+    background: #1b263b;
+    outline: none;
+    border: none;
+    color: #e0e1dd;
+}
+
+.botones .usuario:hover{
+    box-shadow: 0 3px #0d1b2a;
+    top: 448px
+}
+
+.botones .comercio{
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+    top: 450px;
+    left: 180px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 15px;
+    background: #1b263b;
+    outline: none;
+    border: none;
+    color: #e0e1dd;
+}
+
+.botones .comercio:hover{
+    box-shadow: 0 3px #0d1b2a;
+    top: 448px
+}
+
+.article-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.q1{
+    text-align: left;
+    padding: 50px;
+}
+.q1 .q1-1{
+    font-weight: 400;
+}
+
+.q1 .q1-1,
+.p-2{
+    font-size: 20px;
+}
+
+.q1 .p-1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.img-iso{
+    background-color: black;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    color: #fff;
+}
+
+.article-2{
+    background-color: rgb(175, 55, 55);
+    width: 500px; 
+    height: 500px;
+}
