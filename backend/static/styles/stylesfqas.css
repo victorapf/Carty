@@ -1,0 +1,23 @@
+:root {
+    --primario: #e23939;
+    --gris-claro: #B8B8B8;
+    --sombra: 0 0 13px 0 rgba(185,185,185; .25);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body {
+    background: f8fafb;
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+ main{
+
+    max-width: 1000px;
+    width: 90%;
+    margin: 40px auto ;
+ }
