@@ -13,6 +13,10 @@ def index():
 def FQAs():
     return render_template('FQAs.html')
 
+@app.route('/usuario')
+def usuario():
+    return render_template('usuario.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

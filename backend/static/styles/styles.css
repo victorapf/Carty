@@ -28,10 +28,11 @@ header.abajo {
 }
 
 .logo img {
-    width: 100px;
-    height: 80px;
+    width: 120px;
+    height: 100px;
     padding: 0 30px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 nav{
@@ -63,9 +64,9 @@ nav ul li a{
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.356), hsla(196, 93%, 70%, 0.644), #2980B9), url(../img/fotogrande.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.356), hsla(196, 93%, 70%, 0.644), #2980B9), url(../img/fotogrande.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0d1b2a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #415a77, #1b263b, #0d1b2a), url(../img/fotogrande.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.356), hsla(196, 93%, 70%, 0.644), #0d1b2a), url(../img/fotogrande.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover ;
     
 }
@@ -137,6 +138,7 @@ header.abajo li a{
 .article-1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 } 
 
 .q1{
@@ -159,13 +161,52 @@ header.abajo li a{
 }
 
 .img-iso img{
-    margin-right: 50px;
-    width: 300px;
-    height: 300px;
-    padding: 50px;
+    right: 50px;
+    width: 450px;
+    height: 450px;
+    padding: 10px 50px;
 }
 
-.article-2 .aliados-1{
+.adv{
     padding: 50px;
+    background-color: #1b263b;
+    color: white;
+}
+
+.adv .ventajas{
     font-weight: 400;
 }
+
+.adv .adv-1{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.adv .adv-1 .adv-2{
+    width: 370px;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    border: 1px solid #415a77;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* .adv .adv-1 .adv-2:hover{
+    box-shadow:  12px 16px 21px -2px rgba(65,90,119,0.52);
+} */
+
+.adv-2 .img-adv1{
+    width: 100px;
+    height: 100px;
+}
+
+/* cosas por hacer: 
+1. Efecto maquina de escribir al titulo principal
+2. hover animado a las ventajas 
+3. Seccion de 'pronto disponible'
+4. footer 
+5. comenzar a trabajar en los modales 
+6. trabajar sobre paginas informativas
+7. redefinir botones y colores
+8. linkear la base de datos */
